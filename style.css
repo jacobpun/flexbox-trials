@@ -69,7 +69,28 @@ body {
     }
 } */
 
+.fixed-size-container {
+    background-color: whitesmoke;
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.fixed-size {
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100px;
+    margin: 30px 0px;
+}
 
 .callout:nth-child(1) {background-color: lightsteelblue}
 .callout:nth-child(2) {background-color: aquamarine}
